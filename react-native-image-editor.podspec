@@ -12,9 +12,9 @@ Pod::Spec.new do |s|
   s.homepage     = package['homepage']
   s.platform     = :ios, "9.0"
 
-  s.source       = { :git => "https://github.com/react-native-community/react-native-image-editor.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/upwlabs/react-native-image-editor.git", :tag => "glow-v#{s.version}" }
   s.source_files  = "ios/**/*.{h,m}"
 
-  s.dependency 'React'
+  s.dependency 'React-Core'
   s.dependency 'React-RCTImage'
 end
